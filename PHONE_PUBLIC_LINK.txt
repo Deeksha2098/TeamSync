@@ -1,0 +1,18 @@
+TEAMSYNC - PUBLIC HTTPS MEETING LINK
+
+For a phone or computer outside your Wi-Fi, localhost cannot be used directly.
+Use run_public.bat to create a temporary public HTTPS link.
+
+1. Make sure TeamSync works locally at http://localhost:5173.
+2. Double-click run_public.bat.
+3. Wait for a URL such as https://random-name.trycloudflare.com.
+4. The URL is also written to backend\public_url.txt.
+5. In TeamSync, create a meeting and use Share Meeting -> WhatsApp.
+6. The recipient can open the HTTPS meeting link from WhatsApp, Telegram, SMS, Gmail, or a browser.
+7. Keep backend, frontend and the public-tunnel window running while the meeting is active.
+
+Cloudflare Quick Tunnels do not require a Cloudflare account or domain, but they are temporary and intended for testing/demo use.
+
+For a permanent production link, deploy TeamSync with a real HTTPS domain and configure the production URL.
+
+Video calls can require a TURN server on restrictive mobile/corporate networks.

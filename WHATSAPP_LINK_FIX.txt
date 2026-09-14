@@ -1,0 +1,1 @@
+WhatsApp sharing now uses wa.me and sends the raw meeting URL on its own line. WhatsApp can render raw http/https URLs as clickable links. For other devices, VITE_PUBLIC_APP_URL must be a public or LAN-reachable URL; localhost is only reachable on the same computer.

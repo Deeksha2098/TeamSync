@@ -1,0 +1,22 @@
+TEAMSYNC - EASY START
+
+1. Extract this folder.
+2. Double-click START_TEAMSYNC.cmd.
+3. Wait for the green message:
+   TEAMSYNC PUBLIC MEETING LINK READY
+4. A temporary HTTPS address such as https://abc123.loca.lt will open.
+5. Open TeamSync from that address when you want other devices to join.
+6. In Share Meeting, Copy Link / WhatsApp / Telegram will automatically use the HTTPS meeting link.
+
+IMPORTANT:
+- Keep the START_TEAMSYNC window open while using the public link.
+- The public URL is temporary and changes when LocalTunnel restarts.
+- For local-only use, open http://localhost:5173.
+- On the first run, LocalTunnel is installed automatically with npx. Internet access is required.
+- If Windows asks for camera/microphone permission, allow it for the meeting room.
+
+DEMO LOGIN
+Team Lead: lead@teamsync.local
+Password: password123
+Team Member: member@teamsync.local
+Password: password123
